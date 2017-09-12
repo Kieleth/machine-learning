@@ -62,7 +62,6 @@ def calculate_reliability(data):
 
 def plot_trials(csv):
 	""" Plots the data from logged metrics during a simulation."""
-
 	data = pd.read_csv(os.path.join("logs", csv))
 
 	if len(data) < 10:
